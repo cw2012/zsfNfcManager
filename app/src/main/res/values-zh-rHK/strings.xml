@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易NFC讀寫器</string>
+    <string name="action_settings">選項</string>
+    <string name="info_state_tag_found_without_working">如需寫碼，請點擊上方的按鈕</string>
+    <string name="info_state_writing_tag">正在寫碼，請勿移開標籤</string>
+    <string name="info_success_colon">成功:%1$1s</string>
+    <string name="text_button_clear">清空文本</string>
+    <string name="text_button_confirm">確認</string>
+    <string name="text_button_continuous_write">開始寫碼</string>
+    <string name="text_checkBox_add_epc">自動追加epc</string>
+    <string name="text_checkBox_add_epc_nfca">自动追加epc(一般無需勾選)</string>
+    <string name="text_plainText_read_1">請將標籤靠近你的設備</string>
+    <string name="text_plainText_write_text">文本數據</string>
+    <string name="text_plainText_write_text_hint">每一行表示一條記錄</string>
+    <string name="text_plainText_write_url_hint">每一行表示一條記錄</string>
+    <string name="title_activity_read">讀取數據</string>
+    <string name="title_activity_write_url">Ndef寫碼</string>
+    <string name="warn_nfc_closed">請行打開NFC</string>
+    <string name="warn_nfc_unspported">你的設備不支援NFC</string>
+    <string name="warn_tag_unspported">不支援的標籤類型</string>
+    <string name="warn_uri_length_expire">URI太長，建議縮短后再寫入</string>
+    <string name="warn_uri_length_too_short">URI格式不正確，請修改</string>
+    <string name="dialog_write_url_button_positive">終止寫碼</string>
+    <string name="dialog_write_url_title">寫入</string>
+    <string name="info_spported_technology_in_tag">標籤支援的techonology類型</string>
+    <string name="info_text_data_in_tag">文本數據:</string>
+    <string name="info_max_transceive_length_of_nfca">最大指令長度:</string>
+    <string name="warn_data_transfering_wrong">靈氣傳輸錯誤</string>
+    <string name="warn_page_expire">此頁碼不在用戶存儲區，數據將無法寫入</string>
+    <string name="title_activity_write_crystone_nfca">晶通Nfca寫碼</string>
+    <string name="text_plainText_write_single_url_hint">輸入1條URI（當前僅支援寫入單條記錄）</string>
+    <string name="text_painText_write_url">待寫入的URI</string>
+    <string name="textView_nfca_enable_enc">啟用uid加密</string>
+</resources>

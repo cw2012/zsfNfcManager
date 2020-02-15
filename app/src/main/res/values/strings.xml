@@ -1,0 +1,41 @@
+<resources>
+    <!-- 全局 -->
+    <string name="app_name">简易NFC读写器</string>
+    <string name="title_activity_write_url">Ndef写码</string>
+    <string name="title_activity_read">读取信息</string>
+    <string name="title_activity_write_crystone_nfca">晶通NfcA写码</string>
+    <string name="text_button_confirm">确定</string>
+
+    <!-- 全局提示文本 -->
+    <string name="warn_uri_length_expire">URI长度过长，将无法写入标签，请先修改URI</string>
+    <string name="warn_uri_length_too_short">请输入正确的URI后再尝试写码</string>
+    <string name="warn_tag_unspported">不支持的标签类型</string>
+    <string name="warn_nfc_unspported">您的设备没有NFC功能</string>
+    <string name="warn_nfc_closed">请打开 NFC 功能</string>
+    <string name="info_success_colon">成功:%1$1s</string>
+    <string name="info_state_writing_tag">正在写入，请勿移开标签</string>
+    <string name="info_state_tag_found_without_working">如需写码，请点击上方的按钮</string>
+    <string name="dialog_write_url_title">写入</string>
+    <string name="dialog_write_url_button_positive">停止写入</string>
+    <string name="info_spported_technology_in_tag">标签支持的technology类型:</string>
+    <string name="info_text_data_in_tag">文本数据:</string>
+    <string name="info_max_transceive_length_of_nfca">最大指令长度:</string>
+    <string name="warn_data_transfering_wrong">数据传输错误</string>
+    <string name="warn_page_expire">页码不在用户区，不能写入</string>
+    <!-- 读取界面 -->
+    <string name="text_plainText_read_1">请将标签靠近手机</string>
+    <string name="text_button_clear">清空文本</string>
+    <!-- ndef 写码界面 -->
+    <string name="text_painText_write_url">待写入的URI</string>
+    <string name="text_plainText_write_url_hint">输入URI,一行表示一条记录</string>
+    <string name="text_plainText_write_single_url_hint">输入1条URI(当前仅支持单条记录)</string>
+    <string name="text_plainText_write_text">待写入的文本</string>
+    <string name="text_plainText_write_text_hint">输入文本,一行表示一条记录</string>
+    <string name="text_checkBox_add_epc">自动追加Uid</string>
+    <string name="text_button_continuous_write">开始写入</string>
+    <string name="action_settings">设置</string>
+
+    <!-- 晶通写码界面 -->
+    <string name="textView_nfca_enable_enc">启用Uid加密</string>
+    <string name="text_checkBox_add_epc_nfca">自动追加epc(一般无需勾选)</string>
+</resources>

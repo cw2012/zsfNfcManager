@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zsf.ZsfNfcReader">
+    <!-- 需要启用nfc -->
+    <uses-permission android:name="android.permission.NFC" /> <!-- 不支持nfc的手机将无法安装 -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.zsf.ZsfNfcReader.WriteNfcaV1Activity"
+            android:label="@string/title_activity_write_crystone_nfca">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zsf.ZsfNfcReader.ReadActivity"
+            android:label="@string/title_activity_read">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zsf.ZsfNfcReader.WriteNdefActivity"
+            android:label="@string/title_activity_write_url" />
+        <activity
+            android:name="com.zsf.ZsfNfcReader.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
